@@ -21,7 +21,7 @@ let package = Package(
             .target(
                 name: "openssl-privacy",
                 path: "Sources",
-                resources: [.process("Sources/PrivacyInfo.xcprivacy")]
+                resources: [.process("Sources/openssl-privacy/PrivacyInfo.xcprivacy")]
             )
 
         // local development
