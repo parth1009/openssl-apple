@@ -208,9 +208,6 @@ for SYS in ${ALL_SYSTEMS[@]}; do
         ln -s "Versions/Current/Resources"
 
         cd ../../..
-    else
-        echo "Framework for iPhone"
-        cp "../../../PrivacyInfo.xcprivacy" ""
     fi
 done
 
